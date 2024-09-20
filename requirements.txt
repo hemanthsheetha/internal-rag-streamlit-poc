@@ -1,0 +1,7 @@
+openai
+boto3
+pinecone
+cohere
+llama-index
+PyMuPDF
+streamlit
