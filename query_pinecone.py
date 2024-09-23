@@ -5,7 +5,7 @@ config =  st.secrets
 
 # Initialize Pinecone
 pc = Pinecone(api_key=config["PINECONE_API_KEY"])#, environment='YOUR_ENVIRONMENT')  # replace with your actual API key and environment
-index_name = 'lner-no-zarchive-no-excel-with-isms' #'soc2-policies-markdown-index' #'direxion-compliance-worker'
+index_name = 'lner-no-zarchive-no-excel-with-isms-with-soc' #'soc2-policies-markdown-index' #'direxion-compliance-worker'
 
 # Connect to the Pinecone index
 index = pc.Index(index_name)
